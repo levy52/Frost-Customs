@@ -171,6 +171,21 @@ footer {
   background-image: url("../img/services/allinone.jpg");
 }
 
+.projects-hero {
+  background-image: url("../img/projects/project-hero.jpg");
+  background-position: center;
+}
+
+.projects img {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projects .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
 @media (min-width: 992px) {
   .aboutus-info .container {
     padding: 0;
